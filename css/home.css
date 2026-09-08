@@ -19,6 +19,7 @@
 .hero-content h1 {
     color: #fff;
     font-size: clamp(2rem, 5vw, 4rem);
+    line-height: 1.1;
 }
 
 .hero-content p {
