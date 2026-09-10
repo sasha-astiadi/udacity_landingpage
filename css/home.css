@@ -79,7 +79,7 @@
     padding: 0.75rem;
     background-color: #f3f4f6;
     align-items: center;
-    margin: -2rem -2rem 0;
+    margin: -1rem -1rem 0;
     border-radius: 8px 8px 0 0;
     display: flex;
     justify-content: center;
@@ -116,7 +116,8 @@
 }
 
 .about-container {
-    width: min(90%);
+    width: 90%;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -193,14 +194,14 @@
 }
 
 .programs-container {
-    width: min(88%);
+    width: 88%;
+    max-width: 75rem;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    align-items: center;
+    align-items: stretch;
     justify-items: center;
-    padding: 1rem auto;
 }
 
 .programs-card {
@@ -213,7 +214,7 @@
 }
 
 .programs-card-title {
-    padding: 0.75rem auto;
+    padding: 0.75rem 1rem;
     width: 100%;
     aspect-ratio: 16/9;
     display: flex;
@@ -300,6 +301,7 @@ a.card-button:focus {
     .hero-content {
         width: 100%;
         max-width: 100%;
+        text-align: center;
     }
 
     .cards-container {
@@ -319,17 +321,38 @@ a.card-button:focus {
         padding: 2rem 0;
     }
 
-
     .about-container {
-        width: 88%;
+        width: 92%;
     }
 
-    
+    .about-intro {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .about-copy {
+        padding: 0;
+    }
+
+    .programs-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        width: 92%;
+    }
+
+    .programs-card {
+        width: 100%;
+    }
+
+    .programs-card-content {
+        padding: 0.5rem 1rem 0.25rem 1.5rem;
+    }
+
     .cta-button {
         margin: 1rem auto 0;
         display: block;
         text-align: center;
-        padding: 0.5rem 1cqi;
+        padding: 0.5rem 1rem;
     }
 
     a.card-button {
@@ -356,6 +379,10 @@ a.card-button:focus {
 
     .card-content {
         padding: 0.5rem 0.25rem;
+    }
+
+    .programs-card-content {
+        padding: 0.5rem 1rem 0.25rem 1rem;
     }
     
     .cta-button {
