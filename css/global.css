@@ -14,6 +14,11 @@ body {
     font-size: 16px;
 }
 
+section {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -34,11 +39,11 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     gap: 1rem;
     background-color: #fff;
     color: #111827;
-    min-height: 50px;
+    min-height: 30px;
     border-bottom: 1px solid #e5e7eb;
 }
 
@@ -49,7 +54,7 @@ a:hover {
 }
 
 .logo img {
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 .navbar-items {
@@ -63,7 +68,7 @@ a:hover {
 .navbar-items a {
     text-decoration: none;
     color: #111827;
-    font: 1em sans-serif;
+    font: 0.9em sans-serif;
     line-height: 1.2;
     transition: 0.2s ease;
 }
@@ -72,7 +77,7 @@ a:hover {
 .navbar-items a:hover,
 .navbar-items a:focus {
     color: #2563eb;;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* =========================================================
@@ -81,7 +86,7 @@ a:hover {
 
 h1 {
     color: #111827;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 1.5rem;
     margin-bottom: 1rem;
@@ -101,7 +106,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.2rem;
-    margin-bottom: 1rem;
+
 }
 
 p {
@@ -151,6 +156,10 @@ p {
     .navbar {
         flex-direction: column;
     }
+
+    body {
+        padding: 0 1rem;
+    }
     
     .footer-links {
         flex-direction: column;
@@ -172,7 +181,11 @@ p {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) 
+
+{   body {
+        padding: 0 0.5rem;
+    }
     h1 {
         font-size: 1.5rem;
     }
