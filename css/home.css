@@ -4,7 +4,7 @@
 
 .home-hero {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
     background-image:
@@ -104,7 +104,6 @@
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.2;
-    
 }
 
 .about {
@@ -112,7 +111,7 @@
     margin: 0 auto;
     padding: 4rem 0;
     text-align: left;
-    background-color: rgba(103, 198, 248, 0.1)
+    background-color: rgba(103, 198, 248, 0.1);
 }
 
 .about-container {
@@ -182,7 +181,7 @@
 .about-wide p {
     margin-bottom: 0.5rem;
     width: 100%;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .programs {
@@ -275,7 +274,6 @@ a.card-button {
     background-color: #2563eb;
     color: #ffffff;
     text-decoration: none;
-    text-align: center;
     border-radius: 0.25rem;
     font-size: 0.875rem;
     margin-bottom: 1rem;

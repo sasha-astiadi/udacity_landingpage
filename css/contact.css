@@ -40,7 +40,7 @@
 
 .contact-info {
     max-width: 1200px;
-    margin: 0 0;
+    margin: 0;
     padding: 0 2rem;
 }
 
@@ -180,10 +180,6 @@
 
     .office-card {
         padding: 1.5rem;
-    }
-
-    .contact-data {
-        padding: 0.5rem;
     }
 
     .contact-form {
