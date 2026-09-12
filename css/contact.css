@@ -33,13 +33,26 @@
 }
 
 .contact-data {
-    padding: 2rem;
+    padding: 3rem;
+    background-color: #EBF4FC;
+    
 }
 
 .contact-info {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 0;
     padding: 0 2rem;
+    
+}
+
+.contact-info h2 {
+    margin: 1rem 0;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
 }
 
 .contact-offices {
@@ -66,6 +79,11 @@
 .office-card p {
     font-size: 1rem;
     color: #666;
+}
+
+.contact-form-section {
+    padding: 3rem;
+    margin-bottom: 1rem;
 }
 
 .contact-form {
@@ -160,6 +178,10 @@
         padding: 1.5rem;
     }
 
+    .contact-data {
+        padding: 0.5rem;
+    }
+
     .contact-form {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -171,6 +193,11 @@
 
     .contact-form-right {
         order: 1;
+    }
+
+    .contact-form-section {
+        padding: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -211,5 +238,15 @@
 
     .contact-form-right {
         order: 1;
+    }
+    
+    .contact-data {
+        padding: 0.5rem;
+    }
+
+
+    .contact-form-section {
+        padding: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 }
