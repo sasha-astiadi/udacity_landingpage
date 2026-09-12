@@ -4,7 +4,7 @@
 
 .contact-hero {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     min-height: 75vh;
     background-image:
@@ -22,14 +22,11 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
-    align-items: center;
     text-align: center;
-    justify-content: center;
-    display: block;
 }
 
 #contact-title {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: bold;
     color: #fff;
     margin-bottom: 1rem;
@@ -81,6 +78,7 @@
 }
 
 .contact-form-left {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -91,6 +89,7 @@
 }
 
 .contact-form-right {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -99,6 +98,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    width: 100%;
 }
 
 .form-group {
@@ -133,50 +133,83 @@
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-.contact-content {
-    text-align: center;
-    
-}
-
 @media (max-width: 768px) {
     .contact-hero {
-        padding: 0 2em;
+        padding: 0 5%;
     }
-    
-    .contact-offices {
-        grid-template-columns: repeat(2, 1fr);
+
+    .contact-content {
+        padding: 0 1rem;
+    }
+
+    .contact-data {
         padding: 1rem;
     }
-    
+
+    .contact-info {
+        padding: 0 1rem;
+    }
+
+    .contact-offices {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .office-card {
+        padding: 1.5rem;
+    }
+
     .contact-form {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .contact-form-left {
         order: 2;
     }
-    
+
     .contact-form-right {
         order: 1;
     }
-    
 }
 
 @media (max-width: 480px) {
     .contact-hero {
-        padding: 0 1em;
+        padding: 0 5%;
     }
-    
+
+    .contact-content {
+        padding: 0 0.5rem;
+    }
+
+    .contact-data {
+        padding: 0.5rem;
+    }
+
+    .contact-info {
+        padding: 0 0.5rem;
+    }
+
     .contact-offices {
         grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0;
     }
-    
+
+    .office-card {
+        padding: 1rem;
+    }
+
+    .contact-form {
+        gap: 1.5rem;
+    }
+
     .contact-form-left {
-        order: 1;
-    }
-    
-    .contact-form-right {
         order: 2;
+    }
+
+    .contact-form-right {
+        order: 1;
     }
 }
