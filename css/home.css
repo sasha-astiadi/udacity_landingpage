@@ -258,7 +258,7 @@
 }
 
 .programs-card-content {
-    padding: 0.5rem 1rem 0.25rem 2rem;
+    padding: 0.5rem 1rem 0.25rem 1.5rem;
     width: 100%;
     margin-top: 1rem;
     align-items: flex-start;
@@ -267,6 +267,8 @@
 
 a.card-button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: fit-content;
     margin: 0.5rem 0 0;
     padding: 0.25rem 0.5rem;
