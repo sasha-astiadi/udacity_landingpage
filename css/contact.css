@@ -26,32 +26,35 @@
 }
 
 #contact-title {
-    font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: bold;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 700;
     color: #fff;
+    line-height: 1.1;
     margin-bottom: 1rem;
 }
 
 .contact-data {
     padding: 3rem;
     background-color: #EBF4FC;
-    
 }
 
 .contact-info {
     max-width: 1200px;
     margin: 0 0;
     padding: 0 2rem;
-    
 }
 
 .contact-info h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111827;
     margin: 1rem 0;
 }
 
 .contact-info p {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.1rem;
+    color: #6b7280;
+    line-height: 1.6;
     margin-bottom: 2rem;
 }
 
@@ -70,15 +73,16 @@
 }
 
 .office-card h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
     margin-bottom: 0.5rem;
 }
 
 .office-card p {
-    font-size: 1rem;
-    color: #666;
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.5;
 }
 
 .contact-form-section {
@@ -126,9 +130,9 @@
 }
 
 .form-group label {
-    color: #111827;
+    color: #374151;
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
 }
 
