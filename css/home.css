@@ -31,7 +31,7 @@
 }
 
 .hero-description {
-    color: #ffffff;
+    color: #fff;
     font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
@@ -54,7 +54,7 @@
     width: min(88%, 54rem);
     padding: 3rem 0;
     text-align: center;
-    margin: 2rem auto; 
+    margin: 2rem auto;
 }
 
 .cards-container {
@@ -145,7 +145,7 @@
     padding: 0.75rem;
 
     background-color: #111827;
-    color: #ffffff;
+    color: #fff;
 
     font-size: 0.9rem;
     font-weight: 500;
@@ -154,7 +154,7 @@
 
 .about-copy {
     padding: 0;
-    
+
 }
 
 .about-subheading {
@@ -187,7 +187,7 @@
     width: 100%;
     padding: 2rem 0;
     text-align: center;
-    margin: 2rem auto; 
+    margin: 2rem auto;
 }
 
 .programs-container {
@@ -263,26 +263,7 @@
     text-align: left;
 }
 
-.program-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    margin: 0.5rem 0 1rem;
-    padding: 0.25rem 0.5rem;
-    background-color: #2563eb;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 0.25rem;
-    font-size: 0.875rem;
-}
-
-.program-button:hover,
-.program-button:focus {
-    background-color: #1d4ed8;
-}
-
-/* ========================================================= 
+/* =========================================================
    RESPONSIVE STYLES
    ========================================================= */
 
@@ -294,7 +275,7 @@
         padding: 3rem 6%;
         justify-content: center;
     }
-    
+
     .hero-content {
         width: 100%;
         max-width: 100%;
@@ -369,7 +350,7 @@
     .cards-container {
         grid-template-columns: 1fr;
     }
-    
+
     .card-title {
         padding: 0.5rem 0.25rem;
     }
@@ -381,7 +362,7 @@
     .programs-card-content {
         padding: 0.5rem 1rem 0.25rem 1rem;
     }
-    
+
     .cta-button {
         margin: 1rem auto 0;
         display: block;
@@ -395,4 +376,4 @@
     .about-container {
         width: 100%;
     }
-}   
+}

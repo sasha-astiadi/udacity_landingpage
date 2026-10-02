@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8fafc; 
+    background-color: #f8fafc;
     color: #111827;
     font-size: 16px;
 }
@@ -181,6 +181,34 @@ p {
     color: #fff;
 }
 
+.footer-copyright {
+    color: #fff;
+}
+
+.program-button,
+.form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0.5rem 0 1rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+}
+
+.program-button:hover,
+.program-button:focus,
+.form-submit:hover,
+.form-submit:focus {
+    background-color: #1d4ed8;
+}
+
 .footer-link:hover,
 .footer-link:focus {
     color: #60a5fa;
@@ -242,7 +270,7 @@ p {
     h1 {
         font-size: 1.5rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
