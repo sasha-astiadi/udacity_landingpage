@@ -24,13 +24,13 @@
     max-width: 50rem;
 }
 
-.hero-content h1 {
+.hero-title {
     color: #fff;
     font-size: clamp(2rem, 5vw, 4rem);
     line-height: 1.1;
 }
 
-.hero-content p {
+.hero-description {
     color: #ffffff;
     font-size: clamp(1rem, 2vw, 1.2rem);
 }
@@ -87,7 +87,7 @@
     min-height: 4rem;
 }
 
-.card-title h3 {
+.card-heading {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.2;
@@ -99,7 +99,7 @@
     margin: 0;
 }
 
-.card-content p {
+.card-text {
     color: #374151;
     font-size: 0.9rem;
     font-weight: 400;
@@ -136,12 +136,12 @@
     height: auto;
 }
 
-.image-container img {
+.about-image {
     width: 100%;
     height: auto;
 }
 
-.image-container figcaption {
+.about-caption {
     padding: 0.75rem;
 
     background-color: #111827;
@@ -157,11 +157,11 @@
     
 }
 
-.about-copy h3 {
+.about-subheading {
     margin-bottom: 0.5rem;
 }
 
-.about-copy p {
+.about-text {
     margin-bottom: 1.25rem;
     line-height: 1.25;
 }
@@ -169,16 +169,15 @@
 .about-wide {
     margin-top: 1rem;
     width: 100%;
-   
 }
 
-.about-wide h3 {
+.about-partners-heading {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     width: 100%;
 }
 
-.about-wide p {
+.about-partners-text {
     margin-bottom: 0.5rem;
     width: 100%;
     line-height: 1.5rem;
@@ -220,7 +219,7 @@
 
 }
 
-.programs-card-title h3 {
+.program-title {
     margin: 0;
     color: #111827;
     font-size: 1.25rem;
@@ -264,23 +263,22 @@
     text-align: left;
 }
 
-a.card-button {
+.program-button {
     display: flex;
     justify-content: center;
     align-items: center;
     width: fit-content;
-    margin: 0.5rem 0 0;
+    margin: 0.5rem 0 1rem;
     padding: 0.25rem 0.5rem;
     background-color: #2563eb;
     color: #ffffff;
     text-decoration: none;
     border-radius: 0.25rem;
     font-size: 0.875rem;
-    margin-bottom: 1rem;
 }
 
-a.card-button:hover,
-a.card-button:focus {
+.program-button:hover,
+.program-button:focus {
     background-color: #1d4ed8;
 }
 
@@ -354,7 +352,7 @@ a.card-button:focus {
         padding: 0.5rem 1rem;
     }
 
-    a.card-button {
+    .program-button {
         margin: 0.5rem auto 0;
     }
 }

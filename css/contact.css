@@ -44,14 +44,14 @@
     padding: 0 2rem;
 }
 
-.contact-info h2 {
+.contact-heading {
     font-size: 2.25rem;
     font-weight: 700;
     color: #111827;
     margin: 1rem 0;
 }
 
-.contact-info p {
+.contact-description {
     font-size: 1.1rem;
     color: #6b7280;
     line-height: 1.6;
@@ -72,14 +72,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.office-card h3 {
+.office-title {
     font-size: 1.25rem;
     font-weight: 700;
     color: #111827;
     margin-bottom: 0.5rem;
 }
 
-.office-card p {
+.office-address {
     font-size: 0.95rem;
     color: #6b7280;
     line-height: 1.5;
@@ -105,7 +105,7 @@
     justify-content: center;
 }
 
-.contact-form-left img {
+.contact-image {
     width: 100%;
     height: auto;
 }
@@ -116,7 +116,7 @@
     justify-content: center;
 }
 
-.contact-form-right form {
+.contact-form-element {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -129,15 +129,15 @@
     gap: 0.5rem;
 }
 
-.form-group label {
+.form-label {
     color: #374151;
     font-size: 0.95rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
-.form-group input,
-.form-group textarea {
+.form-input,
+.form-textarea {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #d1d5db;
@@ -148,8 +148,8 @@
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
+.form-input:focus,
+.form-textarea:focus {
     outline: none;
     border-color: #3b82f6;
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
